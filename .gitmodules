@@ -1,0 +1,3 @@
+[submodule "external/JustDecompileEngine"]
+	path = external/JustDecompileEngine
+	url = https://github.com/telerik/JustDecompileEngine.git
