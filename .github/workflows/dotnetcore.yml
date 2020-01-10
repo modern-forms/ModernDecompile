@@ -8,8 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-      
+    - uses: actions/checkout@v2
+      with:
+        shell: bash
+        run: |
+            git submodule sync --recursive
+            git submodule update --init --force --recursive --depth=1
+    
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
