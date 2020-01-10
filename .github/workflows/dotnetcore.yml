@@ -17,11 +17,8 @@ jobs:
       with:
         dotnet-version: 3.0.101
         
-    - name: Build with dotnet
-      run: dotnet build --configuration "Debug EngineOnly"
-        
-    - name: Create NuGet Package
-      run: dotnet pack
+    - name: Build and Package
+      run: dotnet pack src\ModernDecompile.csproj --configuration "Debug EngineOnly"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
