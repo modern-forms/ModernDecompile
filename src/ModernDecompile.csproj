@@ -5,6 +5,16 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <Nullable>enable</Nullable>
     <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+
+    <PackageId>ModernDecompile</PackageId>
+    <Version>0.1.0-rc1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/modern-forms/ModernDecompile</PackageProjectUrl>
+    <Description>.NET assembly decompiler</Description>
+    <PackageTags>Decompile</PackageTags>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>decompile</ToolCommandName>
+    <PackageOutputPath>../nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
