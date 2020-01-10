@@ -9,6 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - uses: actions/checkout@v2
       with:
         shell: bash
         run: |
