@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModernDecompile": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Jonathan\\Documents\\Projects\\Playground\\JustDecompileEngine\\ModernDecompile\\bin\\Debug\\netcoreapp3.0\\Modern.Forms.dll\" \"C:\\Users\\Jonathan\\Documents\\Projects\\Playground\\JustDecompileEngine\\ModernDecompile\\bin\\Debug\\netcoreapp3.0\\ModernDecompile.dll\" potato"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\*" />
+    <None Include="*" Exclude="*.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Modern.Forms" Version="0.1.0-rc1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\external\JustDecompileEngine\Cecil.Decompiler\JustDecompiler.csproj" />
+    <ProjectReference Include="..\external\JustDecompileEngine\Mono.Cecil\Mono.Cecil.csproj" />
+  </ItemGroup>
+
+</Project>
