@@ -1,3 +1,6 @@
 [submodule "external/JustDecompileEngine"]
 	path = external/JustDecompileEngine
 	url = https://github.com/telerik/JustDecompileEngine.git
+[submodule "external/cecil"]
+	path = external/cecil
+	url = https://github.com/jbevain/cecil.git
