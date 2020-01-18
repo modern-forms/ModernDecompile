@@ -14,7 +14,7 @@ namespace ModernDecompile
 
         public void InitializeComponent ()
         {
-            Text = "ModernDecompiler";
+            Text = "ModernDecompile";
             Image = ResourceManager.GetEmbeddedImage ("module.png");
 
             // SplitContainer
