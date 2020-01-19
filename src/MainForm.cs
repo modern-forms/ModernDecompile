@@ -102,7 +102,7 @@ namespace ModernDecompile
                 }
             } catch (Exception ex) {
                 Application.RunOnUIThread (() => {
-                    var mb = new MessageBoxForm ($"Unable to load assembly {Path.GetFileName (filename)}", ex.Message);
+                    var mb = new MessageBoxForm ($"Unable to load assembly {Path.GetFileName (filename)}", ex.ToString ());
                     mb.ShowDialog (this);
                 });
             }
