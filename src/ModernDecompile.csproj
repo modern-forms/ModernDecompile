@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
 
     <PackageId>ModernDecompile</PackageId>
-    <Version>0.2.0</Version>
+    <Version>0.2.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/modern-forms/ModernDecompile</PackageProjectUrl>
     <Description>.NET assembly decompiler</Description>
