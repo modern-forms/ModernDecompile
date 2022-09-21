@@ -7,7 +7,7 @@
     <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
 
     <PackageId>ModernDecompile</PackageId>
-    <Version>0.2.1</Version>
+    <Version>0.3.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/modern-forms/ModernDecompile</PackageProjectUrl>
     <Description>.NET assembly decompiler</Description>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Modern.Forms" Version="0.2.0" />
+    <PackageReference Include="Modern.Forms" Version="0.3.0" />
   </ItemGroup>
 
   <ItemGroup>
